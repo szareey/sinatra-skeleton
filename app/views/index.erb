@@ -1,1 +1,25 @@
-<h1>Home Page</h1>
+<head>  </head>
+<h1>Contacts</h1>
+<form id="list">
+  <button type="submit">List All Contacts</button>
+</form>
+<form id="search_by_id">
+  <label>Search ID</label>
+  <input id="contact_id" type="number">
+  <button type="submit">Search</button>
+</form>
+<form id="display_contact_form">
+  <button type="submit">New</button>
+</form>
+<form id="create_contact">
+  <label>Name</label>
+  <input type="hidden" name="contact_id">
+  <input type="text" name="name">
+  <label>Email</label>
+  <input type="email" name="email">
+  <label>Phone Number</label>
+  <input type="text" name="phone">
+  <button type="submit">Create Contact</button>
+</form>
+<ul id="display">
+</ul>
