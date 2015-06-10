@@ -78,7 +78,8 @@ $(document).ready(function() {
 
   $('#display').on('click', 'button.edit', function(e){
     
-    // retrieve ID of the user and retrieve info of the user
+
+    //TODO: Edit button needs work to prevent errors when NEW button is pressed. retrieve ID of the user and retrieve info of the user
     findContact($(this).closest('li').data('id')).done(function(contact){
       // select the input field and set it equal to the contact#
       $('#create_contact > input[name="name"]').val(contact.name);
